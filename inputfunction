@@ -1,0 +1,7 @@
+x = input("what is your name ?")
+print("my name is " + x)
+#here x is a variable that stores a value or string or it acts as a container that assigns a value and string
+#input() is a function that the user can enter any value or text.
+#we use comments for the user in between the parenthesis of the input function.
+# + is an operator which adds both the strings
+#output will be my name is aman if we put aman in the input
