@@ -1,0 +1,6 @@
+x= "aman"
+x_Y=123
+#variables must start with letter and underscores.
+#special characters must not be involved at first of the word.
+print(x)
+print(x_Y)
