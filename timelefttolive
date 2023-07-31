@@ -10,3 +10,5 @@ weeks = round(years * 52)
 days = round(years * 365)
 #round() function is used round the decimal places example round(12/11 , 3) ----output is 1.09 two decimal places
 print(f"You have {days} days, {weeks} weeks, and {months} months left.")
+
+# f-string makes the multiple conversion of strings f' {}'
