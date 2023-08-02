@@ -1,0 +1,11 @@
+#if and else baisc block example:
+
+print("welcome to indian army selection")
+height = int(input("enter your height in centimeters?"))
+
+
+if height>=180:
+    print("you are selected")
+else:
+    print("you are disqualified")
+    
