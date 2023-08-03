@@ -1,0 +1,34 @@
+print("""
+                       ;\
+                      _' \_
+                    ,' '  '`.
+                   ;,)       \
+                  /          :
+                  (_         :
+                   `--.       \
+                      /        `.
+                     ;           `.
+                    /              `.
+                   :                 `.
+                   :                   \
+                    \\                  \
+                     ::                 :
+                     || |               |
+                     || |`._            ;
+       Y            _;; ; __`._,       (________
+   (t^##_          ((__/(_____(______,'______(___) SSt""")
+   
+print("finding the missing cat.")
+
+case1 = int(input("choose whether to check under the stairs or above the roof? type 3 for stairs and 4 for the roof "))
+if case1 == 3:
+    print("there are shelves and holes in uder the stairs.")
+    case2=int(input("If you want to check in the shelves type 1 for shelves and 2 for holes"))
+    if case2 == 2:
+        print("you have found the cat, you won.")
+    else:
+        print("there is no cat in the shelves, gameover.")
+
+else:
+    print("there is no cat on the roof, gameover.")
+
