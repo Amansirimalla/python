@@ -1,0 +1,10 @@
+print("enter any three numbers, it will say which is the greatest among three.")
+x=int(input('enter first number'))
+y=int(input('enter second number'))
+z=int(input('enter third number'))
+if z>x and z>y:
+    print(f'{z} is great')
+elif x>z and x>y:
+    print(f'{x} is great')
+else :
+    print(f'{y} is great')
