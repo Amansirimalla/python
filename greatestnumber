@@ -7,4 +7,4 @@ if z>x and z>y:
 elif x>z and x>y:
     print(f'{x} is great')
 else :
-    print(f'{y} is great')
+    print(f'{y} is great)
