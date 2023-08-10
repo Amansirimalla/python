@@ -1,0 +1,15 @@
+
+student_heights = input("Input a list of student heights ").split()
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+
+heights=0
+for x in student_heights:
+    heights += x
+
+number=0
+for y in student_heights:
+    number += 1
+
+avg = round(heights/number)
+print(avg)
