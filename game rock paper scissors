@@ -1,0 +1,50 @@
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+
+import random
+x=[rock,paper,scissors]
+y=int(input('type 0 for rock,1 for paper,2 for scissors?'))
+print(x[y])
+z=random.randint(0,2)
+print(x[z])
+
+if y==z:
+  print('its a tie')
+elif y==2 and z==0:
+  print("you lost and the computer won")
+elif y==2 and z==1:
+  print("you win")
+elif y==1 and z==2:
+  print("you lose and computer win")
+elif y==1 and z==0:
+  print('you win')
+elif y==0 and z==1:
+  print("you lose")
+elif y==0 and z==2:
+  print("you win")
+else:
+  print("invalid number computer wins")
