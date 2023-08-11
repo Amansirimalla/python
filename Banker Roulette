@@ -1,0 +1,5 @@
+import random
+name=input("enter the names and space between them")
+names=name.split(" ")
+x=random.randint(0,len(names))
+print(f"{names[x]} is going to pay the bill.")
