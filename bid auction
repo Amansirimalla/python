@@ -1,17 +1,13 @@
-from art import logo
-print(logo)
-#HINT: You can call clear() to clear the output in the console.
-dict={}
-x= False
-while not x:
-  name=input("enter your name?")
-  bid=int(input("enter your bid? $ "))
-  dict[name]=bid
-  y=input("if there are any other bidders, type 'yes' or 'no'. ")
-  if y== 'no':
-    x=True
-  else:
-    x=False
-
-z=max(dict)
-print(f"the winner is {z} and the highest bid is {dict[z]}")
+logo = '''
+                         ___________
+                         \         /
+                          )_______(
+                          |"""""""|_.-._,.---------.,_.-._
+                          |       | | |               | | ''-.
+                          |       |_| |_             _| |_..-'
+                          |_______| '-' `'---------'` '-'
+                          )"""""""(
+                         /_________\\
+                       .-------------.
+                      /_______________\\
+'''
